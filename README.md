@@ -6,7 +6,7 @@
 
 Программа создавалась прежде всего для **Wonder Swine multicart**: собственного CPLD mapper'а, меню, нескольких ROM в одном 8 MiB NOR и независимых резервных копий save-data. При этом предусмотрен отдельный **Standalone**-режим для обычного Slot0.
 
-> [!ПРЕДУПРЕЖДЕНИЕ]
+> [!WARNING]
 > Одинаковый внешний вид китайских картриджей **не гарантирует одинаковую разводку платы**. Перед первой прошивкой Wonder Swine CPLD рекомендуется считать исходную CPLD через Quartus `Examine` и проверить полученный `.pof` кнопкой **Check POF...**. Если программа показывает `UNKNOWN CPLD CONFIGURATION - DO NOT FLASH`, Wonder Swine CPLD на такую плату прошивать не следует, пока её совместимость не проверена отдельно.
 
 ---
@@ -98,7 +98,7 @@ CPLD: Wonder Swine compatible
 9. Выполнить **Flash ROM...**.
 10. После записи обязательно выполнить предложенный **Verify ROM...**.
 
-> [!ВАЖНО]
+> [!IMPORTANT]
 > NOR Flash нельзя считать обычным перезаписываемым диском. При замене уже записанного ROM необходимо сначала стереть выбранную ячейку игры, после чего записать ROM и сделать проверку.
 
 ---
@@ -408,16 +408,6 @@ Wonder_Swine_Flasher_session.log
 рядом с EXE.
 
 ---
-
-# Особенности Wonder Swine Menu
-
-Текущая persistent-разметка проекта:
-
-```text
-71h..77h  Game1..Game7 save vaults
-78h       persistent system/session journal
-79h..7Fh  Menu code/data area
-```
 
 512 KiB файл Wonder Swine Menu резервирует свои первые 64 KiB под live `bank78`, поэтому этот участок release Menu ROM должен оставаться `FF`.
 

@@ -15,7 +15,6 @@
 
 ### Для обычной работы с ROM и save
 
-- ПК с **Windows x64**;
 - совместимый WonderSwan flash-картридж;
 
 - китайский **STM32H750 WonderSwan writer/dumper** (`USB H750 WSC flasher`);
@@ -24,8 +23,6 @@
 - рабочий USB/Serial драйвер — writer должен появиться в Windows как COM-порт;
 <img src="Assets/screenshots/COM-PORT.jpg">
 
-- `WonderSwineFlasher.exe`;
-- `game_db.csv` рядом с EXE — нужен для `Scan cartridge` и определения названий/Product ID;
 - WonderSwan / WonderSwan Color / SwanCrystal для проверки результата на реальном железе.
 
 Картридж программируется через задние контакты слота; передние edge-контакты картриджа при работе с этим writer должны быть изолированы так же, как при использовании штатной китайской программы.

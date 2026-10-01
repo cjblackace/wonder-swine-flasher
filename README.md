@@ -43,7 +43,6 @@
 ### Схема подключения USB-Blaster
 
 <a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout.jpg" width="200" alt="USB Blaster pinout"></a>
-<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout2.jpg" width="200" alt="USB Blaster pinout"></a>
 <a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout3.jpg" width="200" alt="USB Blaster pinout"></a>
 
 - На моём экспериментальном картридже разъём JTAG был выполнен в виде отверстий с шагом 1.25 мм;
@@ -58,8 +57,18 @@
 Это **ОЧЕНЬ** рекомендуемый шаг для неизвестного экземпляра китайского картриджа!
 
 1. Подключить картридж к USB Blaster.
+
+<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout2.jpg" width="200" alt="USB Blaster pinout"></a>
+
 2. В Quartus Programmer выполнить **Auto Detect** — ожидается устройство семейства `EPM240`.
-3. Выполнить **Examine** и сохранить считанный `.pof` (желательно раза три).
+
+<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/quartus1.jpg" width="200" alt="USB Blaster pinout"></a>
+
+3. Выполнить **Examine** и сохранить считанный `.pof` (желательно раза три - все три должны получиться одинаковыми).
+
+<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/quartus2.jpg" width="200" alt="USB Blaster pinout"></a>
+<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/quartus3.jpg" width="200" alt="USB Blaster pinout"></a>
+
 4. Запустить Wonder Swine Flasher.
 5. Нажать **Check POF...** и выбрать считанный файл.
 

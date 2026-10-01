@@ -17,6 +17,9 @@
 
 - ПК с **Windows x64**;
 - совместимый WonderSwan flash-картридж;
+
+<img src="Assets/screenshots/STM32H750+cart.jpg" width="250">
+
 - китайский **STM32H750 WonderSwan writer/dumper** (`USB H750 WSC flasher`);
 - рабочий USB/Serial драйвер — writer должен появиться в Windows как COM-порт;
 - `WonderSwineFlasher.exe`;

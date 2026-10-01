@@ -2,14 +2,17 @@
 
 <img src="Assets/wonder_swine_icon.png" width="250" alt="Wonder Swine Flasher icon">
 
-**Wonder Swine Flasher** --- программа для чтения, записи, проверки и обслуживания совместимых WonderSwan / WonderSwan Color flash-картриджей на базе китайского программатора STM32H750 и CPLD Altera MAX II EPM240.
+**Wonder Swine Flasher** --- программа для чтения, записи, проверки и
+обслуживания совместимых WonderSwan / WonderSwan Color flash-картриджей
+на базе китайского программатора STM32H750 и CPLD Altera MAX II EPM240.
 
 Программа предназначена прежде всего для **Wonder Swine multicart**:
 Wonder Swine CPLD, Menu, нескольких ROM на одном картридже и независимых
 резервных копий сохранений. Также предусмотрен **Standalone**-режим для
 работы с обычным одиночным ROM.
 
-> \[!WARNING\] **ВСЁ, ЧТО ВЫ ДЕЛАЕТЕ С ЭТОЙ ПРОГРАММОЙ, ВЫ ДЕЛАЕТЕ НА
+> [!WARNING]
+> **ВСЁ, ЧТО ВЫ ДЕЛАЕТЕ С ЭТОЙ ПРОГРАММОЙ, ВЫ ДЕЛАЕТЕ НА
 > СВОЙ СТРАХ И РИСК!**
 >
 > На данный момент тестирование проводилось на крайне ограниченном
@@ -18,7 +21,8 @@ Wonder Swine CPLD, Menu, нескольких ROM на одном картрид
 > save-data может привести к потере данных или неработоспособности
 > картриджа.
 
-> \[!IMPORTANT\] В первую очередь ищите картридж с дополнительными
+> [!IMPORTANT]
+> В первую очередь ищите картридж с дополнительными
 > **ЗАДНИМИ** контактами. Однако одинаковый внешний вид не гарантирует
 > совместимость.
 >
@@ -39,24 +43,25 @@ Wonder Swine CPLD, Menu, нескольких ROM на одном картрид
 -   совместимый WonderSwan flash-картридж (для перепрошивки он должен
     быть разобран);
 
-`<img src="Assets/screenshots/china-cart.jpg" width="250">`{=html}
+<img src="Assets/screenshots/china-cart.jpg" width="250">
 
 -   китайский **STM32H750 WonderSwan writer/dumper**
     (`USB H750 WSC flasher`);
 
-`<img src="Assets/screenshots/STM32H750+cart.jpg" width="250">`{=html}
+<img src="Assets/screenshots/STM32H750+cart.jpg" width="250">
 
 -   рабочий USB/Serial-драйвер --- программатор должен появиться в
     Windows как COM-порт;
 
-`<img src="Assets/screenshots/COM-PORT.jpg">`{=html}
+<img src="Assets/screenshots/COM-PORT.jpg">
 
 -   WonderSwan / WonderSwan Color / SwanCrystal для проверки результата
     на реальном железе.
 
-`<img src="Assets/screenshots/about.jpg" width="250">`{=html}
+<img src="Assets/screenshots/about.jpg" width="250">
 
-> \[!IMPORTANT\] Картридж программируется через **ЗАДНИЕ** контакты
+> [!IMPORTANT]
+> Картридж программируется через **ЗАДНИЕ** контакты
 > слота. Передние edge-контакты картриджа при работе с этим
 > программатором должны быть изолированы. Можно использовать небольшой
 > кусочек бумаги или изоленты.
@@ -72,8 +77,8 @@ Wonder Swine CPLD, Menu, нескольких ROM на одном картрид
 
 ### Схема подключения USB Blaster
 
-`<a href="Assets/screenshots/usbblasterpinout.jpg">`{=html}`<img src="Assets/screenshots/usbblasterpinout.jpg" width="200" alt="USB Blaster pinout">`{=html}`</a>`{=html}
-`<a href="Assets/screenshots/usbblasterpinout3.jpg">`{=html}`<img src="Assets/screenshots/usbblasterpinout3.jpg" width="200" alt="USB Blaster pinout">`{=html}`</a>`{=html}
+<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout.jpg" width="200" alt="USB Blaster pinout"></a>
+<a href="Assets/screenshots/usbblasterpinout3.jpg"><img src="Assets/screenshots/usbblasterpinout3.jpg" width="200" alt="USB Blaster pinout"></a>
 
 -   На экспериментальном картридже JTAG выполнен в виде отверстий с
     шагом 1,25 мм.
@@ -95,19 +100,19 @@ Wonder Swine CPLD, Menu, нескольких ROM на одном картрид
 
 1.  Подключите картридж к USB Blaster.
 
-`<a href="Assets/screenshots/usbblasterpinout2.jpg">`{=html}`<img src="Assets/screenshots/usbblasterpinout2.jpg" width="200" alt="USB Blaster connection">`{=html}`</a>`{=html}
+<a href="Assets/screenshots/usbblasterpinout2.jpg"><img src="Assets/screenshots/usbblasterpinout2.jpg" width="200" alt="USB Blaster connection"></a>
 
 2.  В Quartus Programmer выполните **Auto Detect** --- ожидается
     устройство семейства `EPM240`.
 
-`<a href="Assets/screenshots/quartus1.jpg">`{=html}`<img src="Assets/screenshots/quartus1.jpg" width="200" alt="Quartus Auto Detect">`{=html}`</a>`{=html}
+<a href="Assets/screenshots/quartus1.jpg"><img src="Assets/screenshots/quartus1.jpg" width="200" alt="Quartus Auto Detect"></a>
 
 3.  Выполните **Examine** и сохраните считанный `.pof`. Для
     дополнительной уверенности можно повторить чтение несколько раз и
     убедиться, что полученные файлы одинаковы.
 
-`<a href="Assets/screenshots/quartus2.jpg">`{=html}`<img src="Assets/screenshots/quartus2.jpg" width="200" alt="Quartus Examine">`{=html}`</a>`{=html}
-`<a href="Assets/screenshots/quartus3.jpg">`{=html}`<img src="Assets/screenshots/quartus3.jpg" width="200" alt="Quartus save POF">`{=html}`</a>`{=html}
+<a href="Assets/screenshots/quartus2.jpg"><img src="Assets/screenshots/quartus2.jpg" width="200" alt="Quartus Examine"></a>
+<a href="Assets/screenshots/quartus3.jpg"><img src="Assets/screenshots/quartus3.jpg" width="200" alt="Quartus save POF"></a>
 
 4.  Запустите Wonder Swine Flasher.
 5.  Нажмите **Check POF...** и выберите считанный файл.
@@ -143,11 +148,11 @@ flash-картриджа. Установка Wonder Swine CPLD для неё п�
 4.  Выберите `Multicart (Menu + Games)`.
 5.  Дождитесь зелёного статуса:
 
-`<img src="Assets/screenshots/wscompatible.jpg">`{=html}
+<img src="Assets/screenshots/wscompatible.jpg">
 
 6.  Нажмите **Scan cartridge**.
 
-`<img src="Assets/screenshots/scan.jpg">`{=html}
+<img src="Assets/screenshots/scan.jpg">
 
 7.  Если список выглядит явно неправильно, проверьте положение и
     контакты картриджа в программаторе: разъём PCI-E достаточно
@@ -419,7 +424,8 @@ Developer,Color,GameID,Revision,ProductID,Title
 Расширенная диагностическая функция для ручной отправки команд
 программатору.
 
-> \[!WARNING\] **Не используйте Raw protocol для обычной работы.**
+> [!WARNING]
+> **Не используйте Raw protocol для обычной работы.**
 > Неверная команда может изменить состояние картриджа или запустить
 > операцию программатора.
 

@@ -21,7 +21,7 @@
 - китайский **STM32H750 WonderSwan writer/dumper** (`USB H750 WSC flasher`);
 <img src="Assets/screenshots/STM32H750+cart.jpg" width="250">
 
-- рабочий USB/Serial драйвер — writer должен появиться в Windows как COM-порт;
+- рабочий USB/Serial драйвер — программатор должен появиться в Windows как COM-порт;
 <img src="Assets/screenshots/COM-PORT.jpg">
 
 - WonderSwan / WonderSwan Color / SwanCrystal для проверки результата на реальном железе.

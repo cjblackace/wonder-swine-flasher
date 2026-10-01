@@ -11,7 +11,8 @@
 
 ---
 
-## Что понадобится
+<details>
+<summary>## Что понадобится</summary>
 
 ### Для обычной работы с ROM и save
 
@@ -40,7 +41,7 @@
 - release POF Wonder Swine CPLD — текущая проверенная аппаратная база проекта: **v1.33 `SELF_FLASH_CE_WRITEFIX`**.
 
 Wonder Swine Flasher **не программирует CPLD через JTAG**. CPLD прошивается в Quartus Programmer. Кнопка `Check POF...` только анализирует выбранный POF-файл и ничего не записывает в картридж.
-
+</details>
 ---
 
 # Проверка платы перед первой прошивкой CPLD

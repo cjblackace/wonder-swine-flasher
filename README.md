@@ -1,10 +1,8 @@
 # Wonder Swine Flasher
 
-`<img src="Assets/wonder_swine_icon.png" width="250" alt="Wonder Swine Flasher icon">`{=html}
+<img src="Assets/wonder_swine_icon.png" width="250" alt="Wonder Swine Flasher icon">
 
-**Wonder Swine Flasher** --- программа для чтения, записи, проверки и
-обслуживания совместимых WonderSwan / WonderSwan Color flash-картриджей
-на базе китайского программатора STM32H750 и CPLD Altera MAX II EPM240.
+**Wonder Swine Flasher** --- программа для чтения, записи, проверки и обслуживания совместимых WonderSwan / WonderSwan Color flash-картриджей на базе китайского программатора STM32H750 и CPLD Altera MAX II EPM240.
 
 Программа предназначена прежде всего для **Wonder Swine multicart**:
 Wonder Swine CPLD, Menu, нескольких ROM на одном картридже и независимых

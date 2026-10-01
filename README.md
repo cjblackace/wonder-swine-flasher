@@ -43,8 +43,11 @@
 ### Схема подключения USB-Blaster
 
 <a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout.jpg" width="200" alt="USB Blaster pinout"></a>
+<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout2.jpg" width="200" alt="USB Blaster pinout"></a>
 
-1. Wonder Swine Flasher **не программирует CPLD через JTAG**. CPLD прошивается в Quartus Programmer. Кнопка `Check POF...` только анализирует выбранный POF-файл и ничего не записывает в картридж.
+
+
+- На моём экспериментальном картридже разъём JTAG был выполнен в виде отверстий с шагом 1.25 мм. Для подключения USB Blaster вам понадобится сделать переходник с обычных перемычек Dupont 2,54 мм на разъём JST MX 1.25 мм, в разъём необходимо воткнуть гнездо. Гнездо не нужно припаивать, просто придержите его пальцем или прищепкой, так как операция будет длиться несколько секунд.
 
 ---
 

@@ -44,6 +44,7 @@
 
 <a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout.jpg" width="200" alt="USB Blaster pinout"></a>
 <a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout2.jpg" width="200" alt="USB Blaster pinout"></a>
+<a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout3.jpg" width="200" alt="USB Blaster pinout"></a>
 
 
 

@@ -40,7 +40,9 @@
 - release POF Wonder Swine CPLD — текущая проверенная аппаратная база проекта: **v1.33 `SELF_FLASH_CE_WRITEFIX`**.
 
 
-### Схема подключения USB Blaster
+### Для первой установки / восстановления CPLD
+
+Дополнительно нужны:
 
 <a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout.jpg" width="200" alt="USB Blaster pinout"></a>
 

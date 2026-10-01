@@ -417,7 +417,7 @@ Developer,Color,GameID,Revision,ProductID,Title
 
 ------------------------------------------------------------------------
 
-# Diagnostics
+# Диагностика
 
 ### Raw protocol
 

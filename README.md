@@ -15,7 +15,8 @@
 
 ### Для обычной работы с ROM и save
 
-- совместимый WonderSwan flash-картридж;
+- совместимый WonderSwan flash-картридж (для перепрошивки он должен быть разобран);
+<img src="Assets/screenshots/chinacart.jpg" width="250">
 
 - китайский **STM32H750 WonderSwan writer/dumper** (`USB H750 WSC flasher`);
 <img src="Assets/screenshots/STM32H750+cart.jpg" width="250">

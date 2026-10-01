@@ -83,7 +83,7 @@ POF структурно читается, но его конфигурация 
 
 После установки Wonder Swine CPLD:
 
-1. Вставить картридж в STM32H750 writer.
+1. Вставить картридж в программатор STM32H750.
 2. Запустить `WonderSwineFlasher.exe`.
 3. Выбрать COM-порт и нажать **Connect**.
 4. Для Wonder Swine выбрать `Multicart (Menu + Games)`.

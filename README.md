@@ -35,16 +35,16 @@
 Дополнительно нужны:
 
 - **USB Blaster**;
-<details>
-<summary>**Схема подключения**</summary>
-
-<img src="Assets/screenshots/usbblasterpinout.jpg">
-
-</details>
-
 - **Quartus II 13.0 SP1**;
 - JTAG-доступ к EPM240 на картридже;
 - release POF Wonder Swine CPLD — текущая проверенная аппаратная база проекта: **v1.33 `SELF_FLASH_CE_WRITEFIX`**.
+
+
+### Схема подключения USB Blaster
+
+[![Название](Assets/screenshots/usbblasterpinout.jpg){width=200px}](Assets/screenshots/usbblasterpinout.jpg)
+
+
 
 Wonder Swine Flasher **не программирует CPLD через JTAG**. CPLD прошивается в Quartus Programmer. Кнопка `Check POF...` только анализирует выбранный POF-файл и ничего не записывает в картридж.
 ---

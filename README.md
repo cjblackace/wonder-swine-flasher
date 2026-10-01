@@ -40,14 +40,14 @@
 - release POF Wonder Swine CPLD — текущая проверенная аппаратная база проекта: **v1.33 `SELF_FLASH_CE_WRITEFIX`**.
 
 
-### Для первой установки / восстановления CPLD
-
-Дополнительно нужны:
+### Схема подключения USB-Blaster
 
 <a href="Assets/screenshots/usbblasterpinout.jpg"><img src="Assets/screenshots/usbblasterpinout.jpg" width="200" alt="USB Blaster pinout"></a>
 
-Wonder Swine Flasher **не программирует CPLD через JTAG**. CPLD прошивается в Quartus Programmer. Кнопка `Check POF...` только анализирует выбранный POF-файл и ничего не записывает в картридж.
+1. Wonder Swine Flasher **не программирует CPLD через JTAG**. CPLD прошивается в Quartus Programmer. Кнопка `Check POF...` только анализирует выбранный POF-файл и ничего не записывает в картридж.
+
 ---
+
 
 # Проверка платы перед первой прошивкой CPLD
 
